@@ -1,0 +1,246 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: #875A7B;
+    border-bottom: 0px solid #875A7B;
+    height: 51px;
+    font-size: 13px;
+}
+
+.navbar-collapse {
+    padding-left: 0;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-item:hover {
+    background-color: rosybrown;
+}
+
+.nav-item .dropdown-item {
+    font-size: 13px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.profile {
+    width: 20px;
+}
+
+.top-filter {
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 45px;
+    z-index: 1;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.top-filter input[type=text] {
+    height: 25px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 2px;
+}
+
+.main-content {
+    z-index: -1;
+}
+
+.navbar-collapse {
+    background-color: #875A7B;
+    padding: 5px 0px 5px 20px;
+}
+
+#datatables,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+    font-size: 12px;
+}
+
+#datatables tr th {
+    border: 0;
+    border-bottom: 1px double lightgray;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    font-size: 13px;
+}
+
+td a {
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_length {
+    font-size: 12px;
+    padding-left: 5px;
+    float: right;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid lightgray;
+}
+
+#datatables_filter {
+    display: none;
+}
+
+.content {
+    padding-bottom: 30px;
+}
+
+.select2-search__field,
+.select_filter a,
+.select_filter .dropdown-menu {
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    padding: 10px;
+}
+
+.select2-container--default .select2-results__option,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    font-size: 12px;
+    padding: 0px 5px 0px 2px;
+}
+
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    /* height: 10px; */
+    border: 0px;
+    border-radius: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #875A7B;
+}
+
+.filter_flex {
+    display: flex;
+}
+
+.filter_gender {
+    width: 145px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_division {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_division .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.live_search {
+    width: 30%;
+    padding-right: 10px;
+}
+
+.filter_branch {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_branch .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.filter_department {
+    width: 300px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_department .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 300px;
+}
+
+.filter_position {
+    width: 300px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_position .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 300px;
+}
+
+.filter_category {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_category .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.filter_model {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_model .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.filter_vendor {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_vendor .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.filter_invoice_number {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_invoice_number .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
+
+.filter_target {
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 3px;
+}
+
+.filter_target .select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple {
+    width: 200px;
+}
